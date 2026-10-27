@@ -27,6 +27,15 @@ Pedestrians frequently trip over broken pavements, curbs, construction debris, o
 
 ---
 
+## 📲 Direct Download (Pre-Built APK)
+
+You can download the pre-compiled APK directly:
+- **Direct Repository Download**: [📥 Download PathSense-v1.0.0-debug.apk](release/PathSense-v1.0.0-debug.apk) (50.5 MB, includes all native OpenCV binaries)
+- **GitHub Releases**: [🏷️ v1.0.0 Release Page](https://github.com/Prashantispacific/Path-Sense/releases/tag/v1.0.0)
+
+
+---
+
 ## ⚡ Core Engineering Highlights
 
 - **Zero-Copy Grayscale Ingestion**: Extracts only `planes[0]` (Y-luminance) from CameraX `YUV_420_888` buffers, unpacks row-stride padding with pre-allocated native memory, and rotates $90^\circ$ to portrait ($240 \times 320$).

@@ -7,5 +7,7 @@
 /captures
 .externalNativeBuild
 .cxx
-*.apk
 app/build/
+*.apk
+!release/*.apk
+
