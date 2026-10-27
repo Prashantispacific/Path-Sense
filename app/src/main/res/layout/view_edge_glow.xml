@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <!-- 1x1 Pixel Keep-Alive Anchor in top-left corner -->
+    <View
+        android:id="@+id/keepAliveAnchor"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="top|start"
+        android:alpha="0.01"
+        android:background="@color/white" />
+
+    <!-- Left Edge Glow Bar -->
+    <View
+        android:id="@+id/glowLeft"
+        android:layout_width="18dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:alpha="0"
+        android:background="@drawable/edge_glow_left" />
+
+    <!-- Right Edge Glow Bar -->
+    <View
+        android:id="@+id/glowRight"
+        android:layout_width="18dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:alpha="0"
+        android:background="@drawable/edge_glow_right" />
+
+    <!-- Bottom / Center Edge Glow Bar -->
+    <View
+        android:id="@+id/glowBottom"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_gravity="bottom"
+        android:alpha="0"
+        android:background="@drawable/edge_glow_bottom" />
+
+</FrameLayout>

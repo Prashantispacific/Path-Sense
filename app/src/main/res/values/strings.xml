@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PathSense</string>
+    <string name="title_debug_mode">Visual Debug HUD</string>
+    <string name="title_background_mode">Background Safe Overlay</string>
+    <string name="btn_start_service">Start Background Shield</string>
+    <string name="btn_stop_service">Stop Shield</string>
+    <string name="anomaly_threshold_label">Anomaly Threshold: %1$.2f</string>
+    <string name="debounce_frames_label">Debounce Frames: %1$d</string>
+    <string name="notification_channel_name">PathSense Active Shield</string>
+    <string name="notification_desc">PathSense is actively scanning footpath hazards</string>
+    <string name="grant_permission_msg">Please grant Camera and Overlay permissions to run PathSense.</string>
+</resources>

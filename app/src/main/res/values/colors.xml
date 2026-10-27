@@ -1,0 +1,11 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_gray">#1A1A1A</color>
+    <color name="translucent_panel">#B30F172A</color>
+    <color name="neon_green">#00E676</color>
+    <color name="neon_cyan">#00E5FF</color>
+    <color name="amber_obstacle">#FFAB00</color>
+    <color name="crimson_pothole">#FF1744</color>
+    <color name="transparent">#00000000</color>
+</resources>
